@@ -1,5 +1,3 @@
-Here's your enhanced **README** with more emojis, better formatting, and fully copy-pasteable:
-
 ---
 
 # **Tea ☕🔥**
