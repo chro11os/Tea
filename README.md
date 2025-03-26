@@ -1,6 +1,3 @@
-## *Tea*
----
-
 # **Tea ☕🔥**
 #### The #1 tea website for the hottest gossip, government conspiracies, and breakups—all in one place.
 
