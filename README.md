@@ -1,122 +1,111 @@
-# **Tea ☕🔥**
-#### The #1 tea website for the hottest gossip, government conspiracies, and breakups—all in one place.
+# **Tea ☕🔒**  
+### **A secure messaging app—No matter what the tea is.**  
 
-> *Spilling tea, serving facts, and keeping you woke 24/7.* 🫖👀
+> *Private. Encrypted. Undeniably Secure.* 🛡️📲  
 
-![Tea Banner](https://source.unsplash.com/1600x900/?tea)
-
----
-
-## 🚀 **About Tea**
-Welcome to **Tea**, your go-to destination for the latest **celebrity drama**, **government cover-ups**, and **social scandals**. Whether it’s a **political conspiracy**, a **shocking breakup**, or an **internet feud**, we serve it fresh, fast, and unfiltered.
-
-📰 **Real-time news updates** – Stay informed with the latest gossip and exclusive scoops.
-⚡ **Fast and modern UI** – Powered by React and styled with TailwindCSS.
-🔒 **Secure and scalable** – Laravel handles the backend magic.
-💾 **Seamless database management** – PostgreSQL ensures smooth data handling.
+![Tea Banner](https://source.unsplash.com/1600x900/?chat,security)  
 
 ---
 
-## 🛠 **Tech Stack**
+## 🚀 **About Tea**  
+**Tea** is a **fully encrypted, private messaging app** designed for **secure communication**. Whether you're sharing **secrets, gossip, or serious conversations**, Tea ensures your messages stay **private**—away from prying eyes.  
+
+🔐 **End-to-End Encryption** – Your messages are encrypted before they leave your device.  
+📲 **Fast & Reliable Messaging** – Powered by WebSockets for real-time chat.  
+🛡️ **No Data Logs** – We don’t store your messages, metadata, or any personal data.  
+🌎 **Cross-Platform** – Works seamlessly on web and mobile.  
+🎨 **Modern UI** – Clean, minimal design built with React & TailwindCSS.  
+
+---
+
+## 🛠 **Tech Stack**  
 
 | Technology  | Description |
 |-------------|------------|
 | **🖥️ Frontend**  | React + TailwindCSS |
-| **🛢️ Backend**  | Laravel |
+| **⚡ Backend**  | Laravel |
+| **🔒 Security**  | End-to-End Encryption (E2EE) |
+| **💬 Real-time Messaging**  | WebSockets |
 | **💽 Database**  | PostgreSQL / MySQL |
-| **⚡ API**  | Laravel API routes |
 | **📜 Authentication**  | Laravel Sanctum / JWT |
-| **🎨 UI Components**  | TailwindCSS |
 
 ---
 
-## 📦 **Installation**
-Want to run **Tea** on your local machine? Follow these steps!
+## 📦 **Installation**  
 
-### **1️⃣ Clone the Repository**
+### **1️⃣ Clone the Repository**  
 ```sh
 git clone https://github.com/yourusername/Tea.git
 cd Tea
 ```
 
-### **2️⃣ Install Dependencies**
+### **2️⃣ Install Dependencies**  
 ```sh
 composer install
 npm install
 ```
 
-### **3️⃣ Set Up Environment**
+### **3️⃣ Set Up Environment**  
 ```sh
 cp .env.example .env
 php artisan key:generate
 ```
 
-### **4️⃣ Configure the Database**
-Edit `.env` and set up your database:
+### **4️⃣ Configure the Database**  
+Edit `.env` with your database credentials:  
 ```env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=tea_db
+DB_DATABASE=tea_messenger
 DB_USERNAME=root
 DB_PASSWORD=yourpassword
 ```
-Then migrate and seed:
+Then migrate the database:  
 ```sh
 php artisan migrate --seed
 ```
 
-### **5️⃣ Start the Server**
-Run Laravel backend:
+### **5️⃣ Start the Servers**  
+Run Laravel backend:  
 ```sh
 php artisan serve
 ```
-Run frontend development server:
+Run frontend development server:  
 ```sh
 npm run dev
 ```
 
 ---
 
-## 🏗 **Project Structure**
-
-```
-Tea/
-│── app/              # Laravel backend logic
-│── public/           # Public assets
-│── resources/        # Views, React components
-│── routes/           # API routes
-│── database/         # Migrations, seeders
-│── .env.example      # Environment variables
-│── package.json      # Frontend dependencies
-│── composer.json     # Backend dependencies
-│── tailwind.config.js # TailwindCSS configuration
-│── vite.config.js    # Vite setup
-```
+## 🔒 **Security & Encryption**  
+🔑 **End-to-End Encryption (E2EE)** ensures that only the sender and recipient can read messages.  
+🕵️‍♂️ **Zero Data Storage** – We don’t keep chat history on our servers.  
+🚀 **Self-Destructing Messages** – Optional ephemeral messaging for added privacy.  
 
 ---
 
-## 🎯 **Contributing**
-Want to help us spill the tea? Follow these steps:
+## 🎯 **Contributing**  
+Want to improve Tea? Follow these steps:  
 
-1. **Fork** the repository.
-2. Create a **new branch**:
+1. **Fork** the repository.  
+2. Create a **new branch**:  
    ```sh
-   git checkout -b feature-new-tea
+   git checkout -b feature-secure-chat
    ```
-3. Make changes and **commit**:
+3. Make changes and **commit**:  
    ```sh
-   git commit -m "Added hot new gossip feature 🔥"
+   git commit -m "Added secure chat encryption 🔒"
    ```
-4. **Push** to your branch:
+4. **Push** to your branch:  
    ```sh
-   git push origin feature-new-tea
+   git push origin feature-secure-chat
    ```
-5. Open a **Pull Request** and let's review it! 🎉
+5. Open a **Pull Request** and let’s review it! 🎉  
 
 ---
 
-## 🔒 **License**
-This project is open-source under the **MIT License**.
+## 🔒 **License**  
+This project is open-source under the **MIT License**.  
 
-📢 *Stay woke. Stay informed. Stay **Tea**.* ☕🔥
+📢 *No matter what the tea is, your messages are safe.* ☕🔐
