@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-custom {
-    background: url('background.png') no-repeat center center fixed;
-    background-size: cover;
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://fonts.gstatic.com/s/jetbrainsmono/v13/ptRMTisqCSS4X0X9sUDXUVFqL-0x7w.woff2') format('woff2');
+    font-weight: 100 800;
+    font-style: normal;
+}
+
+body {
+    font-family: 'JetBrains Mono';
 }
