@@ -17,8 +17,10 @@
     <div class="flex items-center justify-center min-h-screen">
         <div class="container p-4 m-4 max-w-md backdrop-blur-md bg-[#44624a]/30 text-[#f1ebe1] rounded-lg transition duration-300 hover:bg-[#44624a]/80">
             <div class="flex flex-col items-center justify-center space-y-6">
-                <button>
-                    
+                <button 
+                    onclick="window.location='{{ route('dashboard') }}'" 
+                    class="w-full px-4 py-2 text-[#ffffff] bg-[#44624a] rounded-md hover:bg-[#8ba888] focus:outline-none focus:ring-2 focus:ring-[#c0cfb2]">
+                    Go to Dashboard
                 </button>
                 <h1 class="text-center text-5xl font-bold text-[#ffffff]">Welcome</h1>
                 <p class="text-center text-lg text-[#c0cfb2]">Please login or register to continue</p>
