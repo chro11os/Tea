@@ -9,16 +9,17 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap" rel="stylesheet">
     </head>
     <body class="bg-cover bg-center bg-fixed font-custom" style="background-image: url('/img/backgroundDashboard.png');">
-        <div class="absolute top-4 left-4 flex items-center space-x-2">
-            <img src="/img/pfp.png" alt="Profile Picture" class="h-12 w-12 rounded-full animate-fade-in-scale">
-            <span class="text-lg font-bold text-gray-900">Your Name</span>
-        </div>
         <div class="flex items-center justify-center min-h-screen">
             <div class="container grid grid-cols-3 gap-4 p-4 m-4 max-w-6xl backdrop-blur-md bg-[#44624a]/30 text-[#f1ebe1] rounded-lg">
                 <!-- Left Grid: Chats -->
                 <div class="p-4 bg-[#8ba888]/30 rounded-lg shadow-lg transition duration-300 hover:bg-[#8ba888]/90">
-                    <h2 class="text-lg font-bold text-[#ffffff] mb-4">Chats</h2>
-                    <ul class="space-y-2">
+                    <div class="absolute top-4 left-4 flex items-center space-x-2 p-3">
+                        <img src="/img/pfp.jpg" alt="Profile Picture" class="h-12 w-12 rounded-full animate-fade-in-scale">
+                        <span class="text-sm font-poppins text-gray-800">Neil Brags Guzman</span>
+                    </div>
+                    <!-- Todo: Add laravel websockets, for irl chat -->
+
+                    <ul class="space-y-2 mt-14">
                         <li class="p-2 bg-[#365d3c] rounded-md hover:bg-[#2a4a30] transition duration-300">Chat 1</li>
                         <li class="p-2 bg-[#365d3c] rounded-md hover:bg-[#2a4a30] transition duration-300">Chat 2</li>
                         <li class="p-2 bg-[#365d3c] rounded-md hover:bg-[#2a4a30] transition duration-300">Chat 3</li>
